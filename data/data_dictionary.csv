@@ -1,0 +1,18 @@
+Data Dictionary,,
+quest_analytics_colocation_data.csv,,
+,,
+field_name,data_type,description
+payer_provider_id,int,Health-plan provider (doctor) identifier
+payer_provider_location_number,int,Health-plan provided provider (doctor)-at-location identifier
+payer_affiliation_id,int,"Health-plan provided identifier that corresponds to an affiliated entity. Affiliated entities may include provider groups, hospitals, or independent practice association (IPA)"
+encrypted_billing_tax_id_number,string,"Healthcare organization's tax ID number (TIN). Multiple ""practices"" may roll up to one healthcare organization. TINs are encrypted such that each TIN maps to the same encrypted value each time it appears in the data set"
+payer_specialty_code,string,Health plan-provided provider (doctor) specialty name
+practice_street_line_1,string,Address that practice is located at
+practice_street_line_2,string,"Practice's address line 2. Includes suite, apartment, floor, etc. information (if any)"
+practice_city,string,City that practice is located in
+practice_state,string,State that practice is located in
+organization_name,string,Name of healthcare organization
+practice_phone,string,Practice's phone number
+practice_fax,string,Practice's fax number
+provider_first_name,string,Provider's (doctor's) first name
+provider_last_name,string,Provider's (doctor's) last name
